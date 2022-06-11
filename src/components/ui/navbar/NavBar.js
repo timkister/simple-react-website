@@ -16,7 +16,7 @@ export default function NavBar(props) {
             <div className="navbaritems">
                 {navbaritems.map(function(item){
                     return(
-                        <NavBarItem navbaritem={item}/>
+                        <NavBarItem key={item.title} navbaritem={item}/>
                     )}
                 )}
             </div>
