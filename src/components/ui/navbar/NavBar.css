@@ -1,7 +1,18 @@
 .container{
     display: flex;
-    flex-direction: row-reverse;
     background-color: #1A2238;
-    height: 60px;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.navbaritems{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100px;
     width: auto;
 }

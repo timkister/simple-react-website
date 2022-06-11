@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "./Logo";
 
 import './NavBar.css';
 import NavBarItem from "./NavBarItem";
@@ -9,11 +10,16 @@ export default function NavBar(props) {
 
     return(
         <div className="container">
-            {navbaritems.map(function(item){
-                return(
-                    <NavBarItem navbaritem={item}/>
+            <div className="logo">
+                <Logo />
+            </div>
+            <div className="navbaritems">
+                {navbaritems.map(function(item){
+                    return(
+                        <NavBarItem navbaritem={item}/>
+                    )}
                 )}
-            )}
+            </div>
         </div>
     )
 }
