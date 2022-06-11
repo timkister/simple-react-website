@@ -1,5 +1,7 @@
 .container{
-    background-color: black;
-    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #1A2238;
+    height: 60px;
     width: auto;
 }
