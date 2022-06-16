@@ -7,7 +7,7 @@
   margin-right: 3em;
 }
 
-a {
+.unselected {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: large;
@@ -16,6 +16,26 @@ a {
     #FF6A3D,
     #FF6A3D 50%,
     #ffffff 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block; 
+  /* padding: 5px 0;  */
+  position: relative; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.selected {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: large;
+  background-image: linear-gradient(
+    to right,
+    #FF6A3D,
+    #FF6A3D 50%,
+    #FF6A3D 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
