@@ -7,7 +7,7 @@ class StateProvider extends React.Component {
         super()
         this.state = {
             name: "Tagesplan",
-            navbaritems: [{name: "kontakt",title:"Kontakt",href:"kontakt"},{name: "projekt",title:"Projekte",href:"projekte"},{name: "start",title:"Start",href:"start"}],
+            navbaritems: [{name: "kontakt",title:"Kontakt",href:"kontakt"},{name: "projekte",title:"Projekte",href:"projekte"},{name: "start",title:"Start",href:"/"}],
             currentsite: "start"
         }
     }
