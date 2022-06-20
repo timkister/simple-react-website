@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Start from "../../pages/Start";
 
 import NavBar from "./navbar/NavBar";
 
@@ -14,7 +15,7 @@ export default function Homepage(props) {
                     <Route path="/" element={
                         <>
                             <NavBar currentsite="start" navbaritems={navbaritems}/>
-                            <h1>Test</h1>
+                            <Start />
                         </>
                     }/>
                     <Route path="/projekte" element={
